@@ -1,0 +1,49 @@
+node-isomorphic-fetch (3.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Replace dependency to libjs-fetch by node-whatwg-fetch
+
+ -- Yadd <yadd@debian.org>  Sun, 07 Nov 2021 09:22:54 +0100
+
+node-isomorphic-fetch (3.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * New upstream version 3.0.0
+  * Tag test dependency with <!nocheck>
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 02 Nov 2020 10:47:53 +0100
+
+node-isomorphic-fetch (2.2.1-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers to use salsa repository.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Update VCS fields to salsa
+  * Use pkg-js-tools auto install
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Update upstream/metadata
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 01 Mar 2020 09:04:26 +0100
+
+node-isomorphic-fetch (2.2.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #886274)
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 03 Jan 2018 23:18:39 +0530
